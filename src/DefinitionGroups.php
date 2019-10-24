@@ -1,5 +1,5 @@
 <?php
-namespace PoP\Resources\Resources;
+namespace PoP\Resources;
 
 class DefinitionGroups
 {
