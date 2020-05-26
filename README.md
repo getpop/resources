@@ -25,7 +25,9 @@ composer require getpop/resources
 Initialize the component:
 
 ``` php
-\PoP\Resources\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\Resources\Component::class,
+]);
 ```
 
 ## Architecture foundations
